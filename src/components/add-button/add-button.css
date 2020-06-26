@@ -1,0 +1,40 @@
+.add-button{
+    display: inline-flex;
+    align-items: center;
+    min-width: 100px;
+    height: 40px;
+    border: 2px rgb(255, 255, 255) solid;
+    border-radius: 10px;
+    background-color: rgba(79, 159, 179, 0.699);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+    transition: ease .5s all;
+}
+.add-button:focus{
+    border: 5px rgba(79, 159, 179, 0.267) solid;
+    border-radius: 10px;
+    outline: none;
+}
+.add-button:hover{
+    background-color: #fff;
+    color: black;
+}
+.add-form{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between
+}
+.add-form__input{
+    padding-left: 10px;
+    border-radius: 10px;
+    border: 2px solid rgba(79, 159, 179, 0.267);
+    width: 250px;
+}
+.add-form__input:focus{
+    outline: none;
+}
+
